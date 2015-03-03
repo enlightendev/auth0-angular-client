@@ -39,32 +39,6 @@ input[type=checkbox]:focus + label:before {
   outline: 0;
 }
 
-.btn{
-  font-size: 140%;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: 0;
-  background-color: #16214D;
-  color: white;
-
-  &:hover{
-    background-color: #44C7F4;
-  }
-
-  &:focus{
-    outline: none !important;
-  }
-
-  &.btn-lg{
-    padding: 20px 30px;
-  }
-
-  &:disabled{
-    background-color: #333;
-    color: #666;
-  }
-}
-
 h1,h2,h3{
   font-weight: 100;
 }
